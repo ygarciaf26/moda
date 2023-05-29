@@ -10,7 +10,7 @@ body{
     font-size: 1.5rem;
     display: grid;
     justify-content: center;
-    background-color: #eee;
+    background-color: #b87fb3;
     
 }
 nav{
@@ -22,7 +22,7 @@ nav{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
     width: 100%;  
     position: fixed;
-    background-color: white;
+    background-color: rgb(126, 100, 117);
     
 }
 .logo{
@@ -42,11 +42,11 @@ a{
     text-decoration: none;
     border-radius: 10px;
     padding: 10px;
-    color: rgb(95, 3, 3);
+    color: rgb(152, 245, 245);
     font-weight: 500;
 }
 li a:hover{
-    background-color: rgb(95, 3, 3);
+    background-color: rgb(140, 51, 241);
     color: white;
 }
 img{
@@ -57,7 +57,7 @@ img{
 }
 span{
     font-size: 2.5rem;    
-    color: rgb(95, 3, 3);
+    color: rgb(247, 243, 243);
 }
 .logo{
     display: flex;
@@ -152,13 +152,13 @@ filter: contrast(120%);
 table{
     width: 60%;
     font-size: smaller;
-    border: 1px solid rgb(95, 3, 3);    
+    border: 1px solid rgb(185, 127, 252);    
 }
 th, td{
     width: 5%;
     text-align: center;
     vertical-align: center;
-    border: 1px solid rgb(95, 3, 3);
+    border: 1px solid rgb(136, 87, 250);
     border-collapse: collapse;
     padding: 0.3rem;
     caption-side: bottom;
@@ -166,17 +166,17 @@ th, td{
 caption{
     padding: 0.3rem;
     color: #fff;
-    background: #000;
+    background: #f3f2f2;
 }
 th{
-    background-color: rgb(95, 3, 3);
+    background-color: rgb(114, 33, 245);
     color: white;
 }
 
 footer{
     width: 100%;
     padding: 50px 0px;
-    color: rgb(95, 3, 3);
+    color: rgb(181, 106, 243);
 }
 .container_footer{
     display: flex;
@@ -199,7 +199,7 @@ footer{
 .box_footer .terminos{
     max-width: 550px;    
     font-weight: 500;
-    color: #7a7a7a;
+    color: #27292b;
     font-size: smaller;
 }
 .box_footer h2{
@@ -209,7 +209,7 @@ footer{
     font-size: smaller;
 }
 .box_footer a{    
-    color: #7a7a7a;
+    color: #27292b;
     font-weight: 400;
     font-size: smaller;
 }
@@ -229,7 +229,7 @@ footer{
 }
 .box_copyrigth p{
     margin-top: 5px;
-    color: #7a7a7a;
+    color: #27292b;
     font-size: smaller;
 
 }
@@ -266,7 +266,7 @@ footer{
     }
     span{
         font-size: x-large;    
-        color: rgb(95, 3, 3);
+        color: rgb(247, 86, 233);
     }
     
     .contenedor{
@@ -348,7 +348,7 @@ footer{
     }
     span{
         font-size: x-large;    
-        color: rgb(95, 3, 3);
+        color: rgb(73, 245, 208);
     }
     
     .contenedor{
