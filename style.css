@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+    background-color: #eee;
+    
+}
+nav{
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    width: 100%;  
+    position: fixed;
+    background-color: white;
+    
+}
+.logo{
+    margin-left: 50px;
+}
+.navList ul{
+    display: flex;
+    margin-right: 50px;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    margin-right: 3px;
+    
+}
+a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(95, 3, 3);
+    font-weight: 500;
+}
+li a:hover{
+    background-color: rgb(95, 3, 3);
+    color: white;
+}
+img{
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    
+}
+span{
+    font-size: 2.5rem;    
+    color: rgb(95, 3, 3);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio{
+    height: 100vh;    
+ 
+    padding: 50px;
+   
+}
+.galeria{
+ height: 100vh;
+ 
+}
+.historia{
+    height: 100vh;    
+    
+}
+.reyes{
+    height: 100vh;
+   
+}
+.contenedor{
+    margin-top: 100px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    
+}
+p{
+    text-align: justify;
+    padding: 20px;
+    margin-right: 50px;
+}
+.Foto{
+    width: 500px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.section_galeria{
+    display: flex;
+    width:700px;
+    height: 450px;
+    
+    
+}
+.section_galeria .img_galeria{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+
+}
+.section_galeria .img_galeria:hover{
+cursor: crosshair;
+width: 400px;
+opacity: 1;
+filter: contrast(120%);
+}
+.contenedor_galeria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor_historia{
+    display: grid;
+    text-align: center;
+    justify-content: center;    
+    
+    
+}
+.p_historia{
+    padding-left: 200px;
+    padding-right: 100px;    
+}
+.contenedor_tabla{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 60%;
+    font-size: smaller;
+    border: 1px solid rgb(95, 3, 3);    
+}
+th, td{
+    width: 5%;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid rgb(95, 3, 3);
+    border-collapse: collapse;
+    padding: 0.3rem;
+    caption-side: bottom;
+}
+caption{
+    padding: 0.3rem;
+    color: #fff;
+    background: #000;
+}
+th{
+    background-color: rgb(95, 3, 3);
+    color: white;
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    color: rgb(95, 3, 3);
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+.box_footer .logo img{
+    width: 50px;
+    border-radius: 50px;
+    
+}
+.box_footer .terminos{
+    max-width: 550px;    
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: smaller;
+}
+.box_footer h2{
+    margin-bottom: 10px;
+    color: #343434;
+    font-weight: 700;
+    font-size: smaller;
+}
+.box_footer a{    
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: smaller;
+}
+.box_footer a:hover{
+    opacity: 0.8;
+}
+.box_footer a .fa-brands{
+    font-size: 20px;
+    margin-right: 5px;
+    
+}
+.box_copyrigth{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+.box_copyrigth p{
+    margin-top: 5px;
+    color: #7a7a7a;
+    font-size: smaller;
+
+}
+.box_copyrigth hr{
+    border: none;
+    height: 1px;
+    background-color: #343434;
+}
+
+
+@media (max-width:1000px) {   
+    nav{
+        height: 60px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .navList ul{       
+        margin-right: 10px;
+    }
+    li{
+        padding: 2px;
+        margin-right: 2px;        
+    }
+    a{
+        font-size: medium;
+        font-weight: 200;
+    }
+    img{
+        width: 40px;
+        height: auto;
+        margin-right: 10px;
+        
+    }
+    span{
+        font-size: x-large;    
+        color: rgb(95, 3, 3);
+    }
+    
+    .contenedor{
+        margin-top: 8px;
+       
+        display: flex;
+
+    }
+    .Foto{
+       
+        width: 300px;
+        height: auto;   
+        
+    }
+    p{
+        text-align: justify;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .contenedor_galeria{
+        margin-top: 60px;     
+        
+    }
+    .contenedor_historia{
+        margin-top: 150px; 
+        
+        
+    }
+    .p_historia{
+        
+        padding-left: 20px;
+        padding-right: 20px;    
+    }
+
+    table{
+        margin-top: 80px;
+        width: 85%;
+        font-size: medium;         
+    }
+   
+    
+}
+@media (max-width:600px) {
+    
+   
+    nav{
+        width: 100vw;
+        height: 50px;
+        font-size: xx-small;   
+        position: fixed;
+       
+    }
+    .title_logo{
+        font-size: x-small;
+    }
+    .logo{
+        margin-left: 2px;
+        font-size: xx-small;
+       
+    }
+    .navList ul{       
+        margin-right: 2px;
+        
+    }
+    li{
+        padding: 2px;
+        margin-right: 2px; 
+             
+    }
+    a{
+        font-size:xx-small;
+        font-weight: 100;
+    }
+    img{
+        width: 30px;
+        height: auto;
+        margin-right: 10px;
+        
+    }
+    span{
+        font-size: x-large;    
+        color: rgb(95, 3, 3);
+    }
+    
+    .contenedor{
+        width: 100vw;
+        height: 100vh;
+        margin-top: 1px;       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+
+    }
+    .Foto{
+        margin: 0;
+        margin-bottom: 20px;
+        width: 90vw;
+        height: auto;   
+        
+    }
+    p{
+        width: 100vw;
+        font-size: large;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    h1{
+        font-size: larger;
+    }
+    .galeria{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100vw;
+      
+    }
+    .historia{
+        margin-left: 50px;
+
+    }
+    .reyes{
+        margin-top: 100px;
+        margin-left: 50px;
+
+    }
+    table{
+        margin-top: 60px;
+        width: 70%;
+        font-size: small;         
+    }
+}
